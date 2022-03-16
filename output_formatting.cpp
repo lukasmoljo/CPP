@@ -22,7 +22,7 @@ int main() {
 		<< setw(6) << "Price"
 		<< setw(6) << "Total" << endl;
 	runningTotal += processLineItem(3, "Apples", .45F);
-	runningTotal += processLineItem(1, "Bananas", .45F);
+	runningTotal += processLineItem(1, "Bananas", .55F);
 	runningTotal += processLineItem(2, "Oranges", 21.99F);
 
 	cout << endl;
